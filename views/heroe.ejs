@@ -1,0 +1,14 @@
+
+<%- include('./partials/encabezado.ejs')  %>
+
+<body>
+    <% if(error != ""){ %>
+        <p><%= error + id %></p>
+   <% }else{ %>
+        <p>​
+        Hola, mi nombre es <%= nombre %> y soy <%= profesion %>
+    </p>
+   <% } %>
+</body>
+</html>
+
